@@ -1,0 +1,22 @@
+{
+  "name": "eleventy-tsx-shortcodes",
+  "version": "1.0.0",
+  "description": "TSX subcomponents don't have access to shortcodes.",
+  "type": "module",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "build-test-site": "cd tests/stubs/general && npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve --incremental",
+    "test": "vitest --run tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0-alpha.17",
+    "jsx-async-runtime": "^0.5.0",
+    "prettier": "^3.3.3",
+    "vitest": "^2.0.4",
+    "tsx": "^4.16.2"
+  }
+}
