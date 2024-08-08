@@ -17,9 +17,9 @@ export default async function (eleventyConfig) {
 
   return {
     dir: {
-      input: ".",
-      includes: "../../../_includes",
-      output: "dist",
+      input: "tests/stubs/general/",
+      includes: "../../../_includes/",
+      output: "tests/stubs/general/dist",
     },
   };
 }
