@@ -1,6 +1,6 @@
 import "tsx/esm";
 import { jsxToString } from "jsx-async-runtime";
-import { MainLayout } from "../../../_includes/MainLayout.11ty.js";
+import { MainLayout } from "../../../_includes/MainLayout.11ty.tsx";
 
 export default async function (eleventyConfig) {
   eleventyConfig.addExtension(["11ty.jsx", "11ty.ts", "11ty.tsx"], {

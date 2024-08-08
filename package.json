@@ -1,6 +1,5 @@
 {
   "name": "eleventy-tsx-shortcodes",
-  "name": "eleventy-tsx-themes",
   "version": "1.0.0",
   "description": "TSX subcomponents don't have access to shortcodes.",
   "type": "module",
